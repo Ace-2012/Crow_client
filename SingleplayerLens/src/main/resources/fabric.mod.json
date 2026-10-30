@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "singleplayerlens",
+  "version": "${version}",
+  "name": "Singleplayer Lens",
+  "description": "A local-world exploration overlay with a dark configurable panel.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.codex.singleplayerlens.SingleplayerLens"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
